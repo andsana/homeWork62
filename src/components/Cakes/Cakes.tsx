@@ -8,12 +8,14 @@ interface Props {
 
 const Cakes: React.FC<Props> = ({cakes}) => {
   return (
-    <div className="row justify-content-center mt-5">
-      <h1 className="text-center mb-5">Каталог</h1>
-      {cakes.map((cake) => (
-        <CakeItem key={cake.id} cake={cake}/>
-      ))}
-    </div>
+    <>
+      <h1 className="text-center m-5">Каталог</h1>
+      <div className="container d-flex flex-wrap gap-2 justify-content-center">
+        {cakes.map((cake) => (
+          <CakeItem key={cake.id} cake={cake}/>
+        ))}
+      </div>
+    </>
   );
 };
 

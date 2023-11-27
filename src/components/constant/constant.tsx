@@ -26,4 +26,29 @@ export const CakesData: Cake[] = [
     image: 'https://british-bakery.ru/upload/resize_cache/iblock/0a1/700_500_1/0a16216f9ca710fbfaa7f6658fc95aac.jpg',
     price: 1400,
   },
+  {
+    id: 5,
+    name: 'Торт Трюфельный',
+    image: 'https://british-bakery.ru/upload/resize_cache/iblock/3d6/400_400_1/3d6b93df829d6086d28b6ec0fb922dfa.jpg',
+    price: 2000,
+  },
+  {
+    id: 6,
+    name: 'Торт Сметанник',
+    image: 'https://british-bakery.ru/upload/resize_cache/iblock/c91/400_400_1/c91c304bc65a3421e70cbf87f0953409.jpg',
+    price: 1500,
+  },
+
+  {
+    id: 7,
+    name: 'Торт Тыквы',
+    image: 'https://british-bakery.ru/upload/resize_cache/iblock/fc6/400_400_1/fc6a18b20f74c7e4d972cdd3649fe8de.jpg',
+    price: 2000,
+  },
+  {
+    id: 8,
+    name: 'Торт Шоколадный мусс',
+    image: 'https://british-bakery.ru/upload/resize_cache/iblock/947/400_400_1/9478461fdfefe6f161e9165fa2ddd889.jpg',
+    price: 1400,
+  },
 ];
