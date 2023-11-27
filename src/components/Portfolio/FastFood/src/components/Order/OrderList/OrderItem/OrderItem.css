@@ -1,0 +1,42 @@
+.OrderItem {
+  margin: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.OrderItem-name {
+  padding: 0 1em;
+}
+
+.OrderItem-count {
+}
+
+.OrderItem-price {
+  font-weight: bold;
+  padding: 0 1em;
+  margin: 0 0 0 auto;
+}
+
+.OrderItem-btn {
+  font-size: 1.2em;
+  color: inherit;
+  outline: none;
+  border: 1px solid grey;
+  background: transparent;
+  cursor: pointer;
+  line-height: 2em;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.OrderItem-btn:hover {
+  background-color: gainsboro;
+  color: crimson;
+}
+
+.OrderItem-btn:active {
+  box-shadow: 0 0 5px 5px grey;
+}
+
