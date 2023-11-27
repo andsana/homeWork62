@@ -1,13 +1,17 @@
 import Toolbar from './components/Toolbar/Toolbar';
 import Cakes from './components/Cakes/Cakes';
 import {CakesData} from './components/constant/constant';
+import About from './components/About/About';
 
 function App() {
 
   return (
     <>
-      <Toolbar/>
+      <header>
+        <Toolbar/>
+      </header>
       <Cakes cakes={CakesData}/>
+      <About/>
     </>
   );
 }

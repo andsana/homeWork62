@@ -4,7 +4,7 @@ const Toolbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark" style={{background: "pink"}}>
       <div className="container-fluid">
-        <span className="navbar-brand">Сake</span>
+        <span className="navbar-brand">Британские пекарни</span>
         <ul className="navbar-nav mr-auto flex-row gap-2">
           <li className="nav-item">
             <NavLink to="/" className="nav-link">Home</NavLink>
