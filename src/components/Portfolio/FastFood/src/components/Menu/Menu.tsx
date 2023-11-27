@@ -4,7 +4,7 @@ import MenuItem from './MenuItem/MenuItem';
 
 interface Props {
   addOrder: (id: number) => void;
-};
+}
 
 const Menu: React.FC<Props> = ({addOrder}) => {
   return (
